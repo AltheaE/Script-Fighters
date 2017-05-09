@@ -93,10 +93,46 @@ h1{
     text-shadow: 0 0 15px rgb(83, 0, 119);
   }
 }
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width:100%;
+}
+.audio{
+  display: flex;
+  background-color: black;
+  padding-top: 15px;
+
+
+}
+.audio_icons{
+  margin-left: 2em;
+  cursor: pointer;
+  height: 2em;
+}
+.audio_icons:hover{
+  height: 1.8em;
+}
+.register{
+  display: flex;
+  align-content: center;
+  padding-top: 15px;
+
+}
+#regist_title{
+  font-size: 18px;
+  font-family: "Press Start 2P";
+  color:rgb(247, 163, 59);
+}
+#form_icon{
+  height: 5em;
+  padding-right: 15px;
 }
 
 .imageCity{
-  display: flex;
+  display:flex;
   align-items: flex-start;
   position: relative;
 
@@ -105,7 +141,7 @@ h1{
   width:50em;
 }
 
-p {
+.neon {
   font-family: "Press Start 2P";
   font-weight: 300;
   font-size:2.4em;
@@ -113,10 +149,10 @@ p {
   color:rgb(247, 163, 59);
   -webkit-text-stroke: 1.5px black;
 }
-p:hover  {
+.neon:hover  {
   animation: button-flicker 2s linear forwards;
 }
-p:hover .first {
+.neon:hover .first {
   animation: letter-flicker 3s linear infinite;
 }
 
